@@ -35,3 +35,4 @@ function sendFile(fileName, res) {
     var fileContent = fs.readFileSync(fileName);
     res.end(fileContent)
 }
+

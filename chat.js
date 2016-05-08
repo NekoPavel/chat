@@ -17,3 +17,4 @@ exports.subscribe = function (res) {
     console.log("subscribe " + res);
     console.log(clients.length)
 };
+
